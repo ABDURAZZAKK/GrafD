@@ -1,0 +1,36 @@
+2021-04-27 20:25:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+insert into securities_table (date, name, price, id) values (?, ?, ?, ?) [22018-200]
+2021-04-27 21:01:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+update securities_table set date=?, name=?, price=? where id=? [22018-200]
+2021-04-27 21:01:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+update securities_table set date=?, name=?, price=? where id=? [22018-200]
+2021-04-27 21:03:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+update securities_table set date=?, name=?, price=? where id=? [22018-200]
+2021-04-27 21:06:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+update securities_table set date=?, name=?, price=? where id=? [22018-200]
+2021-04-27 21:13:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+update securities_table set date=?, name=?, price=? where id=? [22018-200]
+2021-04-27 21:28:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "'' (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+update securities_table set date=?, name=?, price=? where id=? [22018-200]
+2021-05-21 07:30:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "STRINGDECODE('8\u00a0989') (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "STRINGDECODE('8\u00a0989') (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+insert into securities_table (date, name, price, id) values (?, ?, ?, ?) [22018-200]
+2021-05-21 07:31:56 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "STRINGDECODE('8\u00a0989') (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"
+Data conversion error converting "STRINGDECODE('8\u00a0989') (SECURITIES_TABLE: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+insert into securities_table (date, name, price, id) values (?, ?, ?, ?) [22018-200]
